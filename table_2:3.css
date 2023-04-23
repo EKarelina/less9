@@ -1,0 +1,22 @@
+
+table {
+    max-width: 1000px;
+    width: 80%;
+    margin: auto;
+    padding: 0 15px;
+    box-shadow: 0 5px 15px rgba(rgb(179, 45, 45), rgb(27, 164, 27), rgb(63, 63, 199), alpha);
+    border: 1;
+    border-collapse: separate;
+}
+
+th {
+    
+    background-color: rgb(210, 215, 230);
+}
+td {
+    text-align: center;
+    background-color: rgb(186, 231, 231);
+}
+
+
+

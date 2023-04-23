@@ -1,0 +1,21 @@
+
+
+body {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    vertical-align: auto;
+    background-color: rgb(91, 211, 211);
+    height: 100vt;
+}
+div {
+    width: 260px;
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(187, 195, 203);
+}
+
+
+   

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(169, 219, 202);
+}
+
+.content {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 360px);
+    grid-gap: 20px;
+    
+}
+
+.item {
+    height: 540px;
+    background-color: rgba(215, 250, 248, 0.954);
+
+}
+
+.item_big {
+    grid-column: 1 / -2;
+    background-image:
+    url(img.big.png/photo1.webp);
+    padding: 50px;
+    display: grid;
+    align-content: end;
+}
+
+.item_text {
+    padding: 25px;
+}
+.item_ahead {
+    
+    color: #330303;
+}
+
+.item_heading {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: medium;
+    line-height: normal;
+    text-transform: capitalize;
+    color: #222020;
+}
+.item_date {
+    color: #eb3108;
+
+}
