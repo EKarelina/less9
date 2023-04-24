@@ -2,7 +2,7 @@ table
 {
     width: 50%;
     margin: auto;
-border: 1px solid black; 
+border: 1px solid rgb(33, 31, 31); 
  border-collapse: separate;
 border-spacing: 5px;
 border-radius: 5px;
